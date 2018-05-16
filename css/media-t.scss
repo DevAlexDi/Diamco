@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1199px) {
   #ecosystem .twenty {
     width: 300px;
     height: 177px;
@@ -60,6 +60,13 @@
     font-size: 14px;
     padding-bottom: 20px;
   }
+
+  #event_launch {
+    padding: 60px 0;
+  }
+  #event_launch p {
+    font-size: 29px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -78,5 +85,14 @@
   }
   #ecosystem .eco_right ul li:before {
     left: -20px;
+  }
+
+  #event_launch {
+    padding: 30px 0;
+  }
+  #event_launch p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
 }
