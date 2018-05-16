@@ -39,4 +39,61 @@ body {
   padding: 0 30px;
   margin: 0 auto; }
 
+#ecosystem .container-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../img/dots_bg.png); }
+#ecosystem .eco_left {
+  width: 50%; }
+#ecosystem .twenty {
+  width: 377px;
+  height: 223px;
+  background: url(../img/20.png) no-repeat center;
+  background-size: cover;
+  margin-left: 65px;
+  margin-top: -40px;
+  position: relative; }
+  #ecosystem .twenty .more {
+    font: 21px Montserrat-SemiBold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: -35px;
+    line-height: 1.6;
+    text-align: right; }
+  #ecosystem .twenty .text_line {
+    font: 22px Montserrat-SemiBold;
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    bottom: -40px;
+    letter-spacing: 4px; }
+#ecosystem .eco_right {
+  padding: 20px 65px 10px 0;
+  width: 50%; }
+  #ecosystem .eco_right .zag {
+    font: 65px Montserrat-SemiBold;
+    color: white; }
+  #ecosystem .eco_right ul {
+    margin: 0;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0; }
+    #ecosystem .eco_right ul li {
+      font: 17px Montserrat-Light;
+      padding-bottom: 25px;
+      position: relative;
+      line-height: 1.5; }
+      #ecosystem .eco_right ul li:before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 11px;
+        height: 6px;
+        left: -30px;
+        top: 8px;
+        background: url(../img/marker.png) no-repeat; }
+
 /*# sourceMappingURL=style-t.css.map */
