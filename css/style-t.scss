@@ -44,6 +44,7 @@ body{
     max-width: 1313px;
     padding: 0 30px;
     margin: 0 auto;
+    position: relative;
 }
 
 
@@ -142,15 +143,17 @@ body{
         }
     }
 
-    .blue_button {
-        display: inline-block;
-        background: linear-gradient(to right, #65a2cc, #1cd3da);
-        border: 0;
-        text-transform: uppercase;
-        font: 15px Montserrat-SemiBold;
-        padding: 20px 25px;
-        border-radius: 3px;
-        box-shadow: 0 3px 21px 3px rgba(0, 0, 0, 0.28), inset 0 -3px 0 0px rgba(0, 0, 0, 0.15);
-    }
+}
+
+
+.blue_button {
+    display: inline-block;
+    background: linear-gradient(to right, #65a2cc, #1cd3da);
+    border: 0;
+    text-transform: uppercase;
+    font: 15px Montserrat-SemiBold;
+    padding: 20px 25px;
+    border-radius: 3px;
+    box-shadow: 0 3px 21px 3px rgba(0, 0, 0, 0.28), inset 0 -3px 0 0px rgba(0, 0, 0, 0.15);
 }
 

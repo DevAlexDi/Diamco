@@ -75,9 +75,10 @@ header ul {
         font-size: 16px;
         font-family: Montserrat-Light;
         border: none;
-        border-radius: 4px;
+        border-radius: 3px;
         color: #666666;
-        padding: 18px 20px; }
+        padding: 18px 20px;
+        margin-right: 15px; }
   .sec-lvl-1 .flex-cont-lvl-1 .r-s {
     width: 60%; }
     .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam {
@@ -107,5 +108,21 @@ header ul {
         .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr.descr-4 {
           top: 306px;
           left: calc(50% + 271px); }
+
+.abs-circle {
+  position: absolute;
+  top: 0;
+  left: -660px;
+  width: 1000px;
+  height: 1000px;
+  background: radial-gradient(closest-side, rgba(51, 151, 175, 0.1), transparent); }
+
+.abs-circle-2 {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(closest-side, rgba(51, 151, 175, 0.1), transparent); }
 
 /*# sourceMappingURL=style.css.map */

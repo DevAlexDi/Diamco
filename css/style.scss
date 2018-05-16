@@ -89,13 +89,12 @@ header{
                     font-size: 16px;
                      font-family: Montserrat-Light;
                     border: none;
-                    border-radius: 4px;
+                    border-radius: 3px;
                     color: #666666;
                     padding: 18px 20px;
+                    margin-right: 15px;
                 }
-                button{
-                    
-                }
+              
             }
             
         }
@@ -139,4 +138,20 @@ header{
             }
         }
     }
+}
+.abs-circle{
+    position: absolute;
+    top: 0;
+    left: -660px;
+    width: 1000px;
+    height: 1000px;
+    background: radial-gradient(closest-side, rgba(51,151,175,0.1), transparent);
+}
+.abs-circle-2{
+    position: absolute;
+    top: 0;
+    right: -300px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(closest-side, rgba(51,151,175,0.1), transparent);
 }
