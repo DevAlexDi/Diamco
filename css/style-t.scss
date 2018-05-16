@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.eot);
+    src: local('☺'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../fonts/Montserrat-ExtraBold.eot);
+    src: local('☺'), url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light.eot);
+    src: local('☺'), url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat-Medium.eot);
+    src: local('☺'), url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../fonts/Montserrat-SemiBold.eot);
+    src: local('☺'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: Montserrat-Regular;
+    color: #fff;
+    background: #2d2d2d;
+}
+.container-main{
+    max-width: 1313px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
