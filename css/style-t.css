@@ -32,20 +32,122 @@
 body {
   font-family: Montserrat-Regular;
   color: #fff;
-  background: #2d2d2d; }
+  background-image: url(../img/bg.jpg); }
 
 .container-main {
   max-width: 1313px;
   padding: 0 30px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
-#coins .coins_wrap {
-  display: flex;
-  justify-content: space-between; }
-  #coins .coins_wrap .stages {
-    width: 30%;
-    background: linear-gradient(45deg, #64a2cc, #1fd3da);
-    padding: 45px 20px 5px 85px; }
+#coins {
+  padding-bottom: 125px;
+  padding-top: 90px; }
+  #coins .coins_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    #coins .coins_wrap .two_coins_wrap .zag {
+      font: 65px Montserrat-SemiBold;
+      color: white; }
+    #coins .coins_wrap .two_coins_wrap .two_coins {
+      display: flex; }
+      #coins .coins_wrap .two_coins_wrap .two_coins .coin {
+        padding: 50px 55px 0 75px;
+        width: 50%; }
+        #coins .coins_wrap .two_coins_wrap .two_coins .coin:first-child {
+          margin-left: -75px; }
+        #coins .coins_wrap .two_coins_wrap .two_coins .coin:last-child {
+          background: url(../img/shadow_bg.png) no-repeat left center; }
+        #coins .coins_wrap .two_coins_wrap .two_coins .coin h4 {
+          color: white;
+          font: 35px Montserrat-ExtraBold;
+          text-transform: uppercase;
+          line-height: 1.0; }
+        #coins .coins_wrap .two_coins_wrap .two_coins .coin .grey {
+          color: #aaa;
+          font-size: 15px;
+          margin-bottom: 60px; }
+        #coins .coins_wrap .two_coins_wrap .two_coins .coin .blue {
+          color: #6dbcd3;
+          font-size: 15px;
+          margin-bottom: 55px;
+          min-height: 45px; }
+        #coins .coins_wrap .two_coins_wrap .two_coins .coin ul {
+          margin: 0;
+          list-style: none;
+          padding: 0; }
+          #coins .coins_wrap .two_coins_wrap .two_coins .coin ul li {
+            font-size: 15px;
+            padding-bottom: 20px;
+            position: relative; }
+            #coins .coins_wrap .two_coins_wrap .two_coins .coin ul li:before {
+              display: block;
+              content: '';
+              position: absolute;
+              width: 11px;
+              height: 6px;
+              left: -30px;
+              top: 8px;
+              background: url(../img/marker.png) no-repeat; }
+            #coins .coins_wrap .two_coins_wrap .two_coins .coin ul li a {
+              color: #6dbcd3;
+              display: inline-block;
+              border-bottom: 1px solid #6dbcd3; }
+              #coins .coins_wrap .two_coins_wrap .two_coins .coin ul li a:hover {
+                border-bottom-color: transparent; }
+    #coins .coins_wrap .stages_border {
+      width: 445px;
+      flex-shrink: 0;
+      background: linear-gradient(45deg, #64a2cc, #1fd3da);
+      padding: 5px;
+      margin-top: 10px; }
+    #coins .coins_wrap .stages {
+      padding: 25px 20px 5px 85px;
+      background-image: url(../img/bg.jpg); }
+      #coins .coins_wrap .stages .three {
+        background: url(../img/3.png) no-repeat left top;
+        height: 153px;
+        font: 21px Montserrat-SemiBold;
+        text-transform: uppercase;
+        margin-left: -20px; }
+        #coins .coins_wrap .stages .three span {
+          display: inline-block;
+          padding-top: 33px;
+          padding-left: 85px; }
+      #coins .coins_wrap .stages ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+        #coins .coins_wrap .stages ul li {
+          font-size: 18px;
+          padding-bottom: 30px;
+          position: relative; }
+          #coins .coins_wrap .stages ul li span {
+            display: block;
+            font-size: 15px;
+            color: #999; }
+          #coins .coins_wrap .stages ul li:before {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 11px;
+            height: 6px;
+            left: -55px;
+            top: 10px;
+            background: url(../img/marker.png) no-repeat; }
+          #coins .coins_wrap .stages ul li:after {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 1px;
+            left: -50px;
+            top: 23px;
+            bottom: 0;
+            background: #fff;
+            opacity: 0.1; }
+          #coins .coins_wrap .stages ul li:last-child:after {
+            display: none; }
 
 #ecosystem .container-main {
   display: flex;
@@ -134,6 +236,6 @@ body {
   margin: 0 55px; }
   #socials .socials_wrap a img {
     filter: grayscale(100%);
-    opacity: 0.2%; }
+    opacity: 0.2; }
 
 /*# sourceMappingURL=style-t.css.map */

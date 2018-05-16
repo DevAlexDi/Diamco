@@ -1,3 +1,11 @@
+@media (max-width: 1500px) {
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin ul {
+    margin-left: 30px; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin {
+    padding: 50px 35px 0 60px; }
+    #coins .coins_wrap .two_coins_wrap .two_coins .coin:first-child {
+      margin-left: -60px; } }
 @media (max-width: 1400px) {
   #ecosystem .eco_right {
     width: 45%; } }
@@ -20,7 +28,13 @@
     padding-right: 35px; }
 
   #ecosystem .eco_right .zag {
-    font-size: 45px; } }
+    font-size: 45px; }
+
+  #coins .coins_wrap {
+    display: block; }
+
+  #coins .coins_wrap .stages_border {
+    margin: 50px auto 0; } }
 @media (max-width: 991px) {
   #ecosystem .eco_left {
     display: flex;
@@ -58,7 +72,22 @@
     padding: 60px 0; }
 
   #event_launch p {
-    font-size: 29px; } }
+    font-size: 29px; }
+
+  #coins {
+    padding: 60px 0; }
+
+  #coins .coins_wrap .two_coins_wrap .zag {
+    font-size: 45px; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin h4 {
+    font-size: 25px; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin .grey {
+    margin-bottom: 30px; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin .blue {
+    margin-bottom: 25px; } }
 @media (max-width: 767px) {
   #ecosystem .container-main {
     display: block; }
@@ -82,6 +111,41 @@
   #event_launch p {
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  #coins {
+    padding: 30px 0; }
+
+  #coins .coins_wrap .two_coins_wrap .zag {
+    font-size: 30px; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin h4 {
+    font-size: 20px; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins {
+    display: block; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0 0 0; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin:first-child {
+    margin-left: 0; }
+
+  #coins .coins_wrap .two_coins_wrap .two_coins .coin:last-child {
+    background: none; }
+
+  #coins .coins_wrap .stages_border {
+    width: 300px; }
+
+  #coins .coins_wrap .stages {
+    padding: 15px 15px 5px 30px; }
+
+  #coins .coins_wrap .stages ul li:before {
+    left: -21px; }
+
+  #coins .coins_wrap .stages ul li:after {
+    left: -16px; } }
 
 /*# sourceMappingURL=media-t.css.map */

@@ -38,23 +38,173 @@
 body{
     font-family: Montserrat-Regular;
     color: #fff;
-    background: #2d2d2d;
+    background-image: url(../img/bg.jpg);
 }
 .container-main{
     max-width: 1313px;
     padding: 0 30px;
     margin: 0 auto;
+    position: relative;
 }
 
 #coins {
+    padding-bottom: 125px;
+    padding-top: 90px;
+
     .coins_wrap {
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
+
+        .two_coins_wrap {
+            .zag {
+                font: 65px Montserrat-SemiBold;
+                color: white;
+            }
+
+            .two_coins {
+                display: flex;
+
+                .coin {
+                    padding: 50px 55px 0 75px;
+                    width: 50%;
+
+                    &:first-child {
+                        margin-left: -75px;
+                    }
+
+                    &:last-child {
+                        background: url(../img/shadow_bg.png) no-repeat left center;
+                    }
+
+                    h4 {
+                        color: white;
+                        font: 35px Montserrat-ExtraBold;
+                        text-transform: uppercase;
+                        line-height: 1.0;
+                    }
+
+                    .grey {
+                        color: #aaa;
+                        font-size: 15px;
+                        margin-bottom: 60px;
+                    }
+
+                    .blue {
+                        color: #6dbcd3;
+                        font-size: 15px;
+                        margin-bottom: 55px;
+                        min-height: 45px;
+                    }
+
+                    ul {
+                        margin: 0;
+                        list-style: none;
+                        padding: 0;
+
+                        li {
+                            font-size: 15px;
+                            padding-bottom: 20px;
+                            position: relative;
+
+                            &:before {
+                                display: block;
+                                content: '';
+                                position: absolute;
+                                width: 11px;
+                                height: 6px;
+                                left: -30px;
+                                top: 8px;
+                                background: url(../img/marker.png) no-repeat;
+                            }
+
+                            a {
+                                color: #6dbcd3;
+                                display: inline-block;
+                                border-bottom: 1px solid #6dbcd3;
+
+                                &:hover {
+                                    border-bottom-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stages_border {
+            width: 445px;
+            flex-shrink: 0;
+            background: linear-gradient(45deg, #64a2cc, #1fd3da);
+            padding: 5px;
+            margin-top: 10px;
+        }
 
         .stages {
-            width: 30%;
-            background: linear-gradient(45deg, #64a2cc, #1fd3da);
-            padding: 45px 20px 5px 85px;
+            padding: 25px 20px 5px 85px;
+            background-image: url(../img/bg.jpg);
+
+            .three {
+                background: url(../img/3.png) no-repeat left top;
+                height: 153px;
+                font: 21px Montserrat-SemiBold;
+                text-transform: uppercase;
+                margin-left: -20px;
+
+                span {
+                    display: inline-block;
+                    padding-top: 33px;
+                    padding-left: 85px;
+                }
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                li {
+                    font-size: 18px;
+                    padding-bottom: 30px;
+                    position: relative;
+
+                    span {
+                        display: block;
+                        font-size: 15px;
+                        color: #999;
+                    }
+
+                    &:before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        width: 11px;
+                        height: 6px;
+                        left: -55px;
+                        top: 10px;
+                        background: url(../img/marker.png) no-repeat;
+                    }
+
+                    &:after {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        left: -50px;
+                        top: 23px;
+                        bottom: 0;
+                        background: #fff;
+                        opacity: 0.1;
+                    }
+
+                    &:last-child {
+                        &:after {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -153,7 +303,9 @@ body{
             color: #5ea6cd;
         }
     }
+
 }
+
 
 .blue_button {
     display: inline-block;
@@ -178,7 +330,7 @@ body{
         a {
             img {
                 filter: grayscale(100%);
-                opacity: 0.2%;
+                opacity: 0.2;
             }
         }
     }
