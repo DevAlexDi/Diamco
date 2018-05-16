@@ -119,6 +119,9 @@
     width: 100%;
     margin-top: 30px;
   }
+  #ecosystem .eco_right ul {
+    margin-left: 25px;
+  }
   #ecosystem .eco_right ul li:before {
     left: -20px;
   }
@@ -158,6 +161,7 @@
 
   #coins .coins_wrap .stages_border {
     width: 300px;
+    margin-top: 30px;
   }
   #coins .coins_wrap .stages {
     padding: 15px 15px 5px 30px;
