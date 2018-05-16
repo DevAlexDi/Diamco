@@ -133,6 +133,41 @@
     display: block; }
 
   header ul {
-    display: block; } }
+    display: block; }
+
+  header .nav-logo {
+    padding-bottom: 0; }
+
+  header .l-s {
+    margin-bottom: 25px; }
+
+  .sec-lvl-1 .flex-cont-lvl-1 .l-s form .blue_button {
+    font: 12px Montserrat-SemiBold;
+    padding: 13px 9px; }
+
+  .sec-lvl-1 .flex-cont-lvl-1 .l-s form input {
+    font-size: 14px;
+    padding: 14px 10px; }
+
+  .navbar-collapse {
+    box-shadow: inset 0 1px 0 rgba(29, 181, 218, 0.1); }
+
+  header ul li {
+    padding: 5px 0; }
+
+  header ul {
+    padding: 5px 0; }
+
+  header ul li:last-child {
+    padding-left: 0; }
+
+  .sec-lvl-1 .flex-cont-lvl-1 .r-s {
+    display: none; }
+
+  .abs-circle {
+    display: none; }
+
+  .abs-circle-2 {
+    display: none; } }
 
 /*# sourceMappingURL=media.css.map */
