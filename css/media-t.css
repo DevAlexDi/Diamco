@@ -34,7 +34,10 @@
     display: block; }
 
   #coins .coins_wrap .stages_border {
-    margin: 50px auto 0; } }
+    margin: 50px auto 0; }
+
+  #socials .socials_wrap, .footer_wrap {
+    margin: 0; } }
 @media (max-width: 991px) {
   #ecosystem .eco_left {
     display: flex;
@@ -87,7 +90,16 @@
     margin-bottom: 30px; }
 
   #coins .coins_wrap .two_coins_wrap .two_coins .coin .blue {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+
+  #socials .socials_wrap {
+    padding: 40px 0; }
+
+  .footer_wrap div {
+    width: 35%; }
+
+  .footer_wrap .image {
+    width: 20%; } }
 @media (max-width: 767px) {
   #ecosystem .container-main {
     display: block; }
@@ -150,6 +162,29 @@
     left: -21px; }
 
   #coins .coins_wrap .stages ul li:after {
-    left: -16px; } }
+    left: -16px; }
+
+  #socials .socials_wrap {
+    flex-wrap: wrap;
+    padding-bottom: 10px; }
+
+  #socials .socials_wrap a {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px; }
+
+  .footer_wrap {
+    display: block; }
+
+  .footer_wrap div {
+    width: 100%;
+    text-align: center; }
+
+  .footer_wrap .links {
+    padding: 20px 0; }
+
+  .footer_wrap .image {
+    width: 100%;
+    text-align: center; } }
 
 /*# sourceMappingURL=media-t.css.map */
