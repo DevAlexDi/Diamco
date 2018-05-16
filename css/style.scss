@@ -1,4 +1,8 @@
 header{
+    .l-s{
+        max-width: 175px;
+        width: 100%;
+    }
     .nav-logo{
         display: flex;
         justify-content: space-between;
@@ -150,8 +154,12 @@ header{
 .abs-circle-2{
     position: absolute;
     top: 0;
-    right: -300px;
-    width: 600px;
+    right: 49px;
+    width: 700px;
     height: 600px;
-    background: radial-gradient(closest-side, rgba(51,151,175,0.1), transparent);
+    background: radial-gradient(closest-side, rgba(51, 151, 175, 0.20), transparent);
+}
+.index-circle{
+    position: relative;
+    z-index: 10;
 }
