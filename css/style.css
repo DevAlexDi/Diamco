@@ -1,3 +1,111 @@
+header .nav-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(29, 181, 218, 0.1);
+  align-items: center; }
+header ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center; }
+  header ul li {
+    padding: 0 20px; }
+    header ul li:last-child {
+      padding-right: 0;
+      padding-left: 40px; }
+    header ul li .link-to-page {
+      font-family: Montserrat-SemiBold;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 13px; }
+    header ul li .lang {
+      font-family: Montserrat-SemiBold;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 13px;
+      padding-left: 22px;
+      background-repeat: no-repeat;
+      background-position: center left; }
 
+.sec-lvl-1 .flex-cont-lvl-1 {
+  display: flex;
+  align-items: center;
+  padding: 35px 0; }
+  .sec-lvl-1 .flex-cont-lvl-1 .l-s {
+    width: 40%; }
+    .sec-lvl-1 .flex-cont-lvl-1 .l-s h1, .sec-lvl-1 .flex-cont-lvl-1 .l-s h2, .sec-lvl-1 .flex-cont-lvl-1 .l-s h3, .sec-lvl-1 .flex-cont-lvl-1 .l-s h4, .sec-lvl-1 .flex-cont-lvl-1 .l-s h5, .sec-lvl-1 .flex-cont-lvl-1 .l-s h6 {
+      font-size: 65px;
+      font-weight: normal;
+      font-family: Montserrat-SemiBold;
+      line-height: 65px;
+      color: #fff;
+      margin-bottom: 10px; }
+    .sec-lvl-1 .flex-cont-lvl-1 .l-s .flex-text-link {
+      margin-bottom: 45px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .sec-lvl-1 .flex-cont-lvl-1 .l-s .flex-text-link p {
+        font-family: Montserrat-Light;
+        margin-bottom: 0;
+        font-size: 19px;
+        max-width: 230px; }
+      .sec-lvl-1 .flex-cont-lvl-1 .l-s .flex-text-link .pdf-target {
+        display: block;
+        color: #fff;
+        font-size: 10px;
+        font-family: Montserrat-SemiBold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-top: 100px;
+        background-image: url(../img/pdf.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        width: 120px;
+        flex-shrink: 0;
+        text-align: center; }
+    .sec-lvl-1 .flex-cont-lvl-1 .l-s form {
+      display: flex; }
+      .sec-lvl-1 .flex-cont-lvl-1 .l-s form input {
+        display: block;
+        background: #fff;
+        outline: none;
+        width: 270px;
+        font-size: 16px;
+        font-family: Montserrat-Light;
+        border: none;
+        border-radius: 4px;
+        color: #666666;
+        padding: 18px 20px; }
+  .sec-lvl-1 .flex-cont-lvl-1 .r-s {
+    width: 60%; }
+    .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam {
+      position: relative; }
+      .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr {
+        position: absolute; }
+        .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr p {
+          margin-bottom: 0;
+          text-transform: uppercase; }
+          .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr p:first-child {
+            font-family: Montserrat-Medium;
+            color: #aaaaaa;
+            font-size: 13px; }
+          .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr p:last-child {
+            font-family: Montserrat-SemiBold;
+            letter-spacing: 1px;
+            font-size: 15px; }
+        .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr.descr-1 {
+          top: 42px;
+          left: calc(50% + 115px); }
+        .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr.descr-2 {
+          top: 119px;
+          left: calc(50% + 218px); }
+        .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr.descr-3 {
+          top: 207px;
+          left: calc(50% + 264px); }
+        .sec-lvl-1 .flex-cont-lvl-1 .r-s .big-diam .descr.descr-4 {
+          top: 306px;
+          left: calc(50% + 271px); }
 
 /*# sourceMappingURL=style.css.map */
