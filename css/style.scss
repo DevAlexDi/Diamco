@@ -161,7 +161,16 @@ header{
     right: 49px;
     width: 700px;
     height: 600px;
-    background: radial-gradient(closest-side, rgba(51, 151, 175, 0.20), transparent);
+    background: radial-gradient(closest-side, rgba(51, 151, 175, 0.15), transparent);
+}
+.abs-circle-3{
+    position: absolute;
+    top: -46px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 800px;
+    height: 330px;
+    background: radial-gradient(closest-side, rgba(51, 151, 175, 0.10), transparent);
 }
 .index-circle{
     position: relative;
