@@ -1,3 +1,87 @@
+@media (max-width: 1400px) {
+  #ecosystem .eco_right {
+    width: 45%; } }
+@media (max-width: 1199px) {
+  #ecosystem .twenty {
+    width: 300px;
+    height: 177px; }
 
+  #ecosystem .twenty .more {
+    font-size: 19px;
+    line-height: 1.4;
+    margin-top: -20px; }
+
+  #ecosystem .twenty .text_line {
+    font-size: 20px;
+    letter-spacing: 2px; }
+
+  #ecosystem .eco_right {
+    width: 50%;
+    padding-right: 35px; }
+
+  #ecosystem .eco_right .zag {
+    font-size: 45px; } }
+@media (max-width: 991px) {
+  #ecosystem .eco_left {
+    display: flex;
+    justify-content: center;
+    width: 39%; }
+
+  #ecosystem .twenty {
+    width: 200px;
+    height: 118px;
+    margin-left: 20px; }
+
+  #ecosystem .twenty .more {
+    font-size: 14px;
+    left: -20px;
+    margin-top: -14px; }
+
+  #ecosystem .twenty .text_line {
+    font-size: 15px;
+    letter-spacing: 0;
+    bottom: -25px;
+    left: 5px; }
+
+  #ecosystem .eco_right {
+    width: 55%;
+    padding-right: 0; }
+
+  #ecosystem .eco_right .zag {
+    font-size: 35px; }
+
+  #ecosystem .eco_right ul li {
+    font-size: 14px;
+    padding-bottom: 20px; }
+
+  #event_launch {
+    padding: 60px 0; }
+
+  #event_launch p {
+    font-size: 29px; } }
+@media (max-width: 767px) {
+  #ecosystem .container-main {
+    display: block; }
+
+  #ecosystem .eco_left {
+    width: 100%; }
+
+  #ecosystem .twenty {
+    margin-top: 30px; }
+
+  #ecosystem .eco_right {
+    width: 100%;
+    margin-top: 30px; }
+
+  #ecosystem .eco_right ul li:before {
+    left: -20px; }
+
+  #event_launch {
+    padding: 30px 0; }
+
+  #event_launch p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=media-t.css.map */
